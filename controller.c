@@ -76,7 +76,7 @@ int main()
 		fflush(stdin);
 		///@todo Line 79: expected expression before '-' token
 		///@todo Line 79: too many arguments to function 'free'
-		free(buffer,.data.hid.bRawData);
+		free(buffer.data.hid.bRawData);
 		Sleep(100);
 	}
 	fclose(file);
